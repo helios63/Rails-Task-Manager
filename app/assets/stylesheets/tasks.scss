@@ -1,0 +1,57 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background-color: cornsilk;
+  color:rgb(26, 13, 32);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  line-height: 1.1;
+}
+.container {
+  background-color: burlywood;
+  padding: 2em;
+  border-radius: 25px;
+  margin: 35px auto 0 auto;
+  max-width: 800px;
+}
+
+ul {
+  list-style:circle;
+  padding-left: 0.5em;
+}
+
+ul li a{
+  text-decoration: none;
+  color: rgb(26, 13, 32);
+  &:hover {
+    color:black;
+    font-weight: 600;
+  }
+}
+
+.edit-delete{
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  background-color: rgb(26, 13, 32);
+  padding: 15px 35px;
+  color: burlywood;
+  text-decoration: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  &:hover {
+    background-color: black;
+  }
+}
+
+input {
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
